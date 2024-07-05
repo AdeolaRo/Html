@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="shortcut icon" href="cafejav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1><em> Contactez-nous</em></h1>
 
-    <img src="photo0jpg.jpg" height="400" width="auto">
-    <section>
-        <nav >
-        
-          
-            <a href="Acceuil.html">Accueil</a>
-               <a href="Menu.html">Menu</a>
-             <a href="Contact.html">Contact</a>
-               <a href="Horaire.html">Horaire</a>
-      
-          </nav>
+    
+    <nav >
+       
+        <a href="Acceuil.html">Accueil</a>
+        <a href="Menu.html">Menu</a>
+      <a href="Contact.html">Contact</a>
+        <a href="Horaire.html">Horaire</a>
+  
+      </nav>
 
-    <h2><em> Contactez-nous</em></h2>
-   
+
+<div class="contener"><img src="photo0jpg.jpg" height="400" width="auto"></div>
+    
+
+<div class="form-container"> 
     <form method="get">
         <div>
             <label for="inputText">Votre parole</label>
@@ -30,9 +33,9 @@
        <p>
                                    
        </p>
-        <div>
+        <div class="margDate">
             <label >Date
-            <input type="date" name="inputeDate" id="inputeDate" required>
+            <input type="date" name="inputeDate" id="inputDate" required>
             </label>
         </div>
         <p>
@@ -41,6 +44,7 @@
 
         <button type="submit">Submit Button</button>
     </form>
+</div>
     
 </body>
 </html>
